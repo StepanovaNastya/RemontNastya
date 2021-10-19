@@ -1,0 +1,99 @@
+ /* .block_1{
+    background: green !important;
+    border: 10px solid yellow
+
+ 10px solid yellow
+
+#blockId
+
+.title {
+    color: rgb(201, 59, 59);
+}
+.block_2 {
+    background: yellowgreen;
+}
+.title{
+padding-left: 100px;
+padding-right: 10px;
+padding-top: 10px;
+padding-bottom: 10px;
+padding: 10px 20px 14px;
+} */
+
+main{
+    width: 100%;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.block_1{
+ background: green; 
+ border: 10px solid yellow;
+ height: 50px;
+ width: 50px;
+ display: inline-block;
+
+}
+.title_1{
+ color: blueviolet;   
+}
+
+.block_2{
+ background: cadetblue;
+ border: 10px solid red;
+ height: 50px;
+ width: 50px;
+ display: inline-block;
+}
+.title_2{
+    color: coral;   
+}
+
+.block_3{
+ background: rgb(0, 0, 0);
+ border: 10px solid teal;
+ height: 80px;
+ width: 50px;
+  display: inline-block;
+
+}
+.title_3{
+    color: rgb(165, 255, 80);   
+}
+
+.block_4{
+ background: rgb(255, 251, 251);
+ border: 10px solid rgb(0, 19, 128);
+ height: 40px;
+ width: 100px;
+  display: inline-block;
+}
+.title_4{
+    color: rgb(80, 255, 95);   
+}
+
+.block_5{
+ background: red;
+ border: 10px solid rgb(121, 13, 131);
+ height: 20px;
+ width: 30px;
+  display: inline-block;
+}
+.title_5{
+    color: rgb(255, 223, 80);   
+}
+
+.block_6{
+ background: yellowgreen;
+ border: 10px solid rgb(131, 13, 52);
+ height: 50px;
+ width: 50px;
+  display: inline-block;
+}
+.title_6{
+    color: rgb(85, 56, 32);   
+}
