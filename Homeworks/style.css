@@ -1,99 +1,180 @@
- /* .block_1{
-    background: green !important;
-    border: 10px solid yellow
-
- 10px solid yellow
-
-#blockId
-
-.title {
-    color: rgb(201, 59, 59);
-}
-.block_2 {
-    background: yellowgreen;
-}
-.title{
-padding-left: 100px;
-padding-right: 10px;
-padding-top: 10px;
-padding-bottom: 10px;
-padding: 10px 20px 14px;
-} */
-
-main{
-    width: 100%;
-}
-
 *{
     padding: 0;
     margin: 0;
     list-style: none;
 }
 
-.block_1{
- background: green; 
- border: 10px solid yellow;
- height: 50px;
- width: 50px;
- display: inline-block;
-
+button{
+    border: none;
 }
-.title_1{
- color: blueviolet;   
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
-.block_2{
- background: cadetblue;
- border: 10px solid red;
- height: 50px;
- width: 50px;
- display: inline-block;
-}
-.title_2{
-    color: coral;   
+.header__menu{
+    font-family:'Heebo', sans-serif;
+    font-weight: 500;
+    display: flex;
+    justify-content: end;
+    padding-top: 25px;
 }
 
-.block_3{
- background: rgb(0, 0, 0);
- border: 10px solid teal;
- height: 80px;
- width: 50px;
-  display: inline-block;
-
-}
-.title_3{
-    color: rgb(165, 255, 80);   
+.header__menu-item{
+  padding-left: 30px;
 }
 
-.block_4{
- background: rgb(255, 251, 251);
- border: 10px solid rgb(0, 19, 128);
- height: 40px;
- width: 100px;
-  display: inline-block;
-}
-.title_4{
-    color: rgb(80, 255, 95);   
+.header__technologist-heading{
+    font-family:'Heebo', sans-serif;
+    font-weight: bold;
+    font-size: 44px;
+    color: #21243D;
+    line-height: 60px;
 }
 
-.block_5{
- background: red;
- border: 10px solid rgb(121, 13, 131);
- height: 20px;
- width: 30px;
-  display: inline-block;
-}
-.title_5{
-    color: rgb(255, 223, 80);   
+.header__technologist-text{
+    font-family:'Heebo', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    color: #21243D;
+    line-height: 23px; 
+    padding: 30px 0;
 }
 
-.block_6{
- background: yellowgreen;
- border: 10px solid rgb(131, 13, 52);
- height: 50px;
- width: 50px;
-  display: inline-block;
+.header__technologist-btn{
+    font-family:'Heebo', sans-serif;
+    font-weight: 500;
+    background: #FF6464;
+    border-radius: 2px;
+    padding: 8px 20px;
+    color: white;
 }
-.title_6{
-    color: rgb(85, 56, 32);   
+
+.header__content{
+    padding-top: 150Px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.header__technologist{
+    max-width: 490px;  
+}
+
+.header__user-img{
+    width: 232px;
+    height: 224px;
+}
+
+.burger{
+    display: none;
+}
+
+
+/* Homework 4 */
+
+.posts{
+    background:#EDF7FA;
+    margin-top: 80px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.post{
+    background: #FFFFFF; 
+    box-shadow: 0px 4px 10px rgba(187, 225, 250, 0.25);
+    border-radius: 4px;
+    padding: 20px;
+}
+
+.posts__header{
+    display: flex;
+    justify-content: space-between;
+    font-family:'Heebo', sans-serif;
+    font-weight: normal
+}
+
+.posts__header-view{
+    color: #00A8CC;
+    padding: 5px 0 10px;;
+}
+
+.posts__header-title{
+    padding: 5px 0 10px;
+}
+
+.post__description{
+    max-width: 360px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+}
+
+.post__heading{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 38px;
+}
+
+.post__date{
+    display: flex;
+    padding: 15px 0 15px;
+    width: 50%;
+}
+
+.post__date-title{
+  font-family: Heebo;
+  padding-left:  15px;
+}
+
+.post__date-content{
+    font-family: Heebo;
+    border-right: 1px solid #000000;
+    padding-right: 15px;
+}
+
+.post__group{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+    align-items: baseline;
+}
+
+.post:nth-child(1){
+    margin-right: 20px;
+}
+
+@media (max-width: 730px) {
+    .header__menu{
+        display: none;
+    }
+    .header__content{
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 30px;
+    }
+    .container{
+        padding: 0 10px;
+    }
+    .burger{
+        display: flex;
+        justify-content: end;
+        padding-top: 25px;
+    }
+}
+
+@media (max-width: 650px){
+    .post__group{
+        flex-wrap: wrap;
+    }
+    .post{
+        width: 100%  
+    }
+    .post:nth-child(1){
+        margin: 0 0 20px 0;
+    }
 }
