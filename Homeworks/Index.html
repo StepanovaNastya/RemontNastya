@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;700&display=swap" rel="stylesheet">
     <title>Level UP</title>
    <!--  
     Комментарии по тэгам:
@@ -18,10 +22,88 @@
     b, strong -  сделать текст жирным
     i, em - сделать текс курсивом
     hr - линия-разделитель
+    ul - список, в нем элементы "li"
     --> 
 </head>
+<main>
+    <!-- Homework 3 and 4 -->
 <body>
-Homework 3
-    
-</body>
+   <header class="header">
+       <div class="container"> 
+         <ul class="header__menu">
+            <li class="header__menu-item">
+               Works
+            </li>
+           <li class="header__menu-item">
+              Blog
+            </li>
+            <li class="header__menu-item">
+              Contact
+             </li>
+         </ul>
+         <div class="burger">
+             <img src="./img/menu.svg" alt="menu">
+         </div>
+         <div class="header__content">
+             <div class="header__technologist">
+                  <h2 class="header__technologist-heading">
+                     Hi, I am John,
+                     Creative Technologist
+                   </h2>
+                   <p class="header__technologist-text">
+                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                   </p>
+                   <button class="header__technologist-btn">
+                      Download Resume
+                     </button>
+             </div>
+                   <div class="header__user">
+                     <img class="header__user-img" src="./img/Photo.jpg" alt="User">
+                   </div>
+         </div>
+      </div>
+    </header>
+  <main>
+     <section class="posts"> 
+         <div class="container">
+             <div class="posts__header">
+                 <p class="posts__header-title">Recent posts</p>
+                 <p class="posts__header-view">View all</p>
+             </div>
+             <div class="post__group">
+                <div class="post">
+                   <h2 class="post__heading">
+                     Making a design system from scratch
+                 </h2>
+                 <div class="post__date">
+                     <date class="post__date-content">12 Feb 2020</date>
+                     <p class="post__date-title">Design, Patten</p>
+                 </div>
+                 <p class="post__description">
+                     Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                 </p>
+                 </div>
+             <div class="post">
+                <h2 class="post__heading">
+                    Creating pixel perfect icons in Figma
+                </h2>
+                <div class="post__date">
+                    <date class="post__date-content">12 Feb 2020</date>
+                    <p class="post__date-title">Figma, Icon Design</p>
+                </div>
+                <p class="post__description">
+                    Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.
+                </p>
+             </div>
+            </div>
+         </div>
+     </section>
+  </main>
+
+  </body>
+ 
+
+
+
+
 </html>
