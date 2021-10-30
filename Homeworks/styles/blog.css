@@ -1,0 +1,60 @@
+.blog__heading{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 44px;
+    line-height: 60px;
+    color: #21243D;
+    padding: 30px 0;
+}
+
+.blog__content-heading{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+.blog__description{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+
+.blog__time{
+    display: flex;
+    padding: 20px 0;
+}
+
+.blog__time-year{
+    font-family: Heebo;
+    border-right: solid #000000;
+    padding-right: 15px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+}
+
+.blog__time-title{
+    font-family: Heebo;
+    padding-left: 15px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4;
+}
+
+.blog__content{
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 15px;
+    margin: 20px 0;
+}
