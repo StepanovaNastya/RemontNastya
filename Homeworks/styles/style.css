@@ -2,6 +2,7 @@
     padding: 0;
     margin: 0;
     list-style: none;
+    text-decoration: none;
 }
 
 button{
@@ -22,6 +23,11 @@ button{
 
 .header__menu-item{
   padding-left: 30px;
+  cursor: pointer;
+}
+
+.header__menu-item:hover{
+  color: #FF6464;  
 }
 
 .header__technologist-heading{
@@ -122,7 +128,6 @@ button{
 .post__date{
     display: flex;
     padding: 15px 0 15px;
-    width: 50%;
 }
 
 .post__date-title{
@@ -147,34 +152,105 @@ button{
     margin-right: 20px;
 }
 
-@media (max-width: 730px) {
-    .header__menu{
-        display: none;
-    }
-    .header__content{
-        flex-direction: column-reverse;
-        align-items: center;
-        text-align: center;
-        padding: 30px;
-    }
-    .container{
-        padding: 0 10px;
-    }
-    .burger{
-        display: flex;
-        justify-content: end;
-        padding-top: 25px;
-    }
+.featured__heading{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 60px;
+    color: #21243D;
+    padding: 5px 0 10px;
 }
 
-@media (max-width: 650px){
-    .post__group{
-        flex-wrap: wrap;
-    }
-    .post{
-        width: 100%  
-    }
-    .post:nth-child(1){
-        margin: 0 0 20px 0;
-    }
+.featured__left-img{
+    width: 246px;
+    height: 180px;
+}
+
+.fearured__content{
+    display: flex;
+    flex-wrap: wrap-reverse;
+    border-bottom: 1px solid #E0E0E0;
+    padding-bottom: 15px ;
+}
+
+.featured__right{
+padding-left: 18px;
+}
+
+.featured__right-heading{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 44px;
+    color: #21243D;
+}
+
+.featured__time{
+    padding: 20px 0;
+    display: flex;
+    align-items: baseline;
+}
+
+.featured__time-title{
+    padding-left: 25px;
+}
+
+.featured__time-year{
+    background-color: #142850;
+    color: #FFFFFF;
+    padding: 2px 10px;
+    border-radius: 16px;
+    align-self: baseline;
+}
+
+.featured__time-title{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 29px;
+    color: #8695A4; 
+}
+
+.featured-description{
+    max-width: 594px;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #21243D;
+}
+
+.footer__content{
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.footer__img{
+    width: 30px ;
+    height: 30px ;
+    padding-right: 35px;
+}
+
+.footer__copyright{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    color: #21243D;
+    padding-top: 20px;
+}
+
+.footer{
+    padding-bottom: 30px;
+}
+
+.footer__img:nth-child(4){
+    padding: 0;
 }

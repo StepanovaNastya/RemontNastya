@@ -1,0 +1,82 @@
+.contact__heading{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 34px;
+    line-height: 50px;
+    color: #21243D;
+}
+
+.contact__wrapper{
+    padding: 30px 0;
+}
+
+.contact__date{
+    display: flex;
+    align-items: baseline;
+    padding: 20px 0;
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.contact__date-year{
+    color: seashell;
+    background: #FF7C7C;
+    border-radius: 16px;
+    padding: 4px 15px;
+    margin-right: 15px;
+}
+
+.contact__description{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    max-width: 650px ;
+}
+
+.contact__image{
+    max-width: 681px;
+    height: 460px;
+}
+
+.contact__content{
+    padding-top: 20px;
+}
+
+.contact__content-heading{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 60px;
+    color: #21243D;
+   
+}
+
+.contact__content-subheading{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 60px;
+    color: #21243D;
+    padding: 20px 0;
+}
+
+.contact__content-description{
+    font-family: Heebo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 23px;
+    color: #000000;
+    max-width: 600px;
+    padding-bottom: 15px;
+}
